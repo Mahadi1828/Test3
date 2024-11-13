@@ -1,18 +1,4 @@
-package mypackage;
 
-abstract class Bike {
-
-    Bike() {
-        System.out.println("bike is created");
-    }
-
-    abstract void run();
-
-    void changeGare() {
-        System.out.println("gear change");
-    }
-
-}
 
 class Honda extends Bike {
 
